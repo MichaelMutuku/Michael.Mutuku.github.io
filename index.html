@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content= "width=device-width, initial scale=1.0">
+        <title>Mike's Webdevelopment Portfolio</title> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="mylogo">
+                <img src="images/path.jpg" width="50" height="50" alt="the logo">
+            </div>
+
+            <button class="nav-btn" aria-label="nav-button">
+                <span class="btn"></span>
+            </button>
+
+            <nav class="mynav">
+                <ul class="mynav_ls">
+                    <li class="mynav_item"> <a href="#home" class="mynav_link">Home</a></li>
+                    <li class="mynav_item"> <a href="#skills" class="mynav_link">My Skills</a></li>
+                    <li class="mynav_item"> <a href="#about" class="mynav_link">About Me</a></li>
+                    <li class="mynav_item"> <a href="#projects" class="mynav_link">Web App Example</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Top Introduction Section-->
+        <section class="topintro" id="home">
+            <h1 class="sectitle sectitle_intro">
+                Welcome. I am <strong>Michael Mutuku</strong>A web-developer.
+            </h1>
+
+            <p class="secsubtitle secsubtitle_intro"><strong>Below lies a brief description of myself</strong></p>
+
+            <img src="images/passport2.jpg" width= "220" height="220" alt="passport" class="first_img">
+
+        </section>
+
+        <!--My Creative Style Section-->
+        <section class="myskills" id="skills">
+            <h2 class="sectitle sectitle_skills">I build/do...</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Fullstack webapps using CSS</h3>
+                    <p>All the styles are done using CSS alone. Hardcore CSS coding
+                        is better but takes a very long time to make. It provides 
+                        more customization than bootstrap. The only limit is patience.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Fullstack webapps using Boot Strap</h3>
+                    <p>For a better and modern look and feel all the styles
+                        are done using bootstrap. It provides less customization
+                        because components used are copied. I use this only if the 
+                        time to deliver the project is small.
+                    </p>
+                </div>
+
+            </div>
+            <a href="#projects" class="button">My Projects</a>
+        </section>
+
+        <!--My artist bio-->
+        <section class="bio" id="about">
+            <h2 class="sectitle sectitle_bio">Something about me...</h2>
+            <div class="bio_body">
+                <p>I am a web developer. I have created some projects using 
+                    HTML, JavaScript and CSS. Below you can find one of the
+                     best webapp I have build of a five page site.
+                    </p>
+            </div>
+            <img src="images/ocean.jpg" alt="developer bio booster image" class="bio_img">
+        </section>
+
+        <!--My completed projects-->
+        <section class="myprojects" id="projects">
+            <h2 class="sectitle">Better Days Web App</h2>
+            <p class="secsubtitle">Have a look at the project</p>
+            <div class="mywork">
+                <!--Project 1-->
+                <a href="Home.html" class="work_piece">
+                    <img src="images/img1.png"  alt="first page" class="workpiece_img">
+                </a>
+
+                <!--Project 2-->
+                <a href="AboutUs.html" class="work_piece">
+                    <img src="images/img2.png"  alt="second page" class="workpiece_img">
+                </a>
+
+                <!--Project 3-->
+                <a href="OurProjects.html" class="work_piece">
+                    <img src="images/img3.png"  alt="third page" class="workpiece_img">
+                </a>
+
+                <!--Project 4-->
+                <a href="Donate.html" class="work_piece">
+                    <img src="images/img4.png"  alt="fourth page" class="workpiece_img">
+                </a>
+
+                <!--Project 5-->
+                <a href="ContactUs.html" class="work_piece">
+                    <img src="images/img5.png"   alt="fifth page" class="workpiece_img">
+                </a>
+
+            </div>
+        </section>
+
+        <!--page footer-->
+        <footer class="footer">
+            <!--insert your own here-->
+            <a href="mailto:Michael.Mutuku@strathmore.edu" class="footer_link">Michael.Mutuku@strathmore.edu</a>
+            <h3>© Copyright Michael Mutuku 2021|All rights reserved</h3>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
